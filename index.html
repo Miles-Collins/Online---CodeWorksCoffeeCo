@@ -40,7 +40,7 @@
             aria-controls="navbarResponsive"
             aria-expanded="false"
             aria-labelledby="Toggle Navigation"
-            class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded"
+            class="navbar-toggler bg-dark bg-gradient text-uppercase font-weight-bold text-white rounded"
           >
             Menu <i class="fas fa-bars"></i>
           </button>
@@ -131,7 +131,7 @@
             <!-- NOTE BUILD OUT THE FIRST ONE COMPLETELY SO YOU CAN JUST PASTE DOWN -->
             <!-- PRODUCT - HTMLICIOUS -->
             <div
-              class="col-10 col-md-6 col-lg-4 d-flex justify-content-center my-5"
+              class="col-12 col-md-6 col-lg-4 d-flex justify-content-center my-5"
             >
               <div class="card product-card">
                 <div class="card-body">
@@ -267,14 +267,16 @@
                   src="assets/Category-Light.png"
                   alt=""
                 />
-                <h1 class="category-content-button-heading text-center mt-2">
+                <h1
+                  class="category-content-button-heading text-center mt-2 mt-lg-4"
+                >
                   Light
                 </h1>
               </div>
             </div>
             <!-- CATEGORY - MEDIUM -->
             <div
-              class="col-10 col-md-6 col-lg-3 d-flex justify-content-center my-4 my-4"
+              class="col-10 col-md-6 col-lg-3 d-flex justify-content-center my-4"
             >
               <div class="category-content-button">
                 <img
@@ -282,7 +284,9 @@
                   src="assets/Category-Medium.png"
                   alt=""
                 />
-                <h1 class="category-content-button-heading text-center mt-2">
+                <h1
+                  class="category-content-button-heading text-center mt-2 mt-lg-4"
+                >
                   Medium
                 </h1>
               </div>
@@ -297,7 +301,9 @@
                   src="assets/Category-Espresso.png"
                   alt=""
                 />
-                <h1 class="category-content-button-heading text-center mt-2">
+                <h1
+                  class="category-content-button-heading text-center mt-2 mt-lg-4"
+                >
                   Medium-Dark
                 </h1>
               </div>
@@ -312,7 +318,9 @@
                   src="assets/Category-Dark.png"
                   alt=""
                 />
-                <h1 class="category-content-button-heading text-center mt-2">
+                <h1
+                  class="category-content-button-heading text-center mt-2 mt-lg-4"
+                >
                   Dark
                 </h1>
               </div>
@@ -330,13 +338,13 @@
         </h3>
         <div class="container">
           <!-- ABOUT - BODY -->
-          <div class="row justify-content-center">
+          <div class="row justify-content-center align-items-center">
             <!-- ABOUT - IMAGE -->
-            <div class="d-none d-md-block col-6">
+            <div class="d-none d-xl-block col-6">
               <img class="img-fluid" src="assets/About-Photo.png" alt="" />
             </div>
             <!-- ABOUT - DESCRIPTION -->
-            <div class="col-11 col-md-6">
+            <div class="col-12 col-xl-6">
               <p class="about-description">
                 CodeWorks Coffee Co. is dedicated to providing high-quality,
                 specialty coffee for coding enthusiasts, combining the art of
@@ -354,11 +362,56 @@
         </div>
       </section>
 
-      <footer>
+      <footer id="socials" class="text-center">
         <!-- SECTION SOCIALS -->
-
-        <!-- SECTION COPYRIGHT -->
+        <section class="page-section">
+          <div class="container">
+            <div class="row">
+              <!-- SOCIALS - LOCATION -->
+              <div class="col-12 col-lg-4 mb-5 mb-lg-0">
+                <h4 class="text-uppercase mb-4">Location</h4>
+                <p>
+                  8455 WestPark St.
+                  <br />
+                  Boise, ID 8370
+                </p>
+              </div>
+              <!-- SOCIALS - ICONS -->
+              <div class="col-12 col-lg-4 mb-5 mb-lg-0">
+                <h4 class="text-uppercase mb-4">Around the Web</h4>
+                <a class="btn btn-outline-dark btn-social mx-1" href="#!">
+                  <i class="fab fa-fw fa-facebook-f"></i>
+                </a>
+                <a class="btn btn-outline-dark btn-social mx-1" href="#!">
+                  <i class="fab fa-fw fa-twitter"></i>
+                </a>
+                <a class="btn btn-outline-dark btn-social mx-1" href="#!">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a class="btn btn-outline-dark btn-social mx-1" href="#!">
+                  <i class="fab fa-fw fa-linkedin-in"></i>
+                </a>
+              </div>
+              <!-- SOCIALS - CONTACT US -->
+              <div class="col-12 col-lg-4 mb-5 mb-lg-0">
+                <h4 class="text-uppercase mb-4">Contact Us</h4>
+                Phone: (208) 391-5056
+                <br />
+                Email: support@boisecodeworks.com
+              </div>
+            </div>
+          </div>
+        </section>
       </footer>
+      <!-- SECTION COPYRIGHT -->
+      <section class="text-center text-white py-4 bg-dark">
+        <div class="container">
+          <small
+            >Made with <i class="mx-1 text-danger fa-solid fa-heart"></i> by
+            CodeWorks</small
+          >
+        </div>
+      </section>
     </main>
 
     <footer></footer>
