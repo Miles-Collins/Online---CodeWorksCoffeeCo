@@ -165,9 +165,6 @@
 
 /* CATEGORY */
 
-.category {
-}
-
 .category-content {
   margin-top: 3rem;
 }
@@ -198,4 +195,27 @@
 .category-content-button-heading {
   font-size: 1.25rem;
   font-weight: 400;
+}
+
+/* ABOUT */
+
+.about {
+  background-color: #ebebeb;
+}
+
+.about-heading {
+  margin-bottom: 3rem;
+}
+
+.about-description {
+  line-height: 2rem;
+  font-size: 1.25rem;
+}
+
+@media (max-width: 600px) {
+  .about-description {
+    line-height: 2rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+  }
 }
